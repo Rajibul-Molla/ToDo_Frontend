@@ -98,7 +98,7 @@ export default function Index() {
   };
 
   return (
-    <SafeAreaView>
+    <SafeAreaView style={{ flex: 1, backgroundColor: "#FFFFFF" }}>
       <View>
 <Text style={{ marginLeft: 16, marginTop: 16, fontWeight: "700", fontSize: 26, color: "#1A1A1A", letterSpacing: 0.3 }}>
           Welcome to ToDo List
